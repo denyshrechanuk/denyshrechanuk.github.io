@@ -15,6 +15,15 @@ img{
 	width: 100%;
 }
 
+
+
+.personal-info{
+	vertical-align: top;
+	padding: 25px;
+	background-color: #3f6592;
+	color: #fff;
+}
+
 @media screen and (min-width: 800px) {
 	.personal-info,
 	.experience{
@@ -28,14 +37,6 @@ img{
 .experience{
 	width: 77%;
 }}
-
-.personal-info{
-	height: 1750px;
-	vertical-align: top;
-	padding: 25px;
-	background-color: #3f6592;
-	color: #fff;
-}
 
 .photo{
 	width: 135px;
