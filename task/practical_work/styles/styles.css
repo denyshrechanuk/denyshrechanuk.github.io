@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('_variables.css');
+@import url('_global.css');
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.page-wrap {
+	padding-top: 65px;
+}
+
+.content-wrap {
+	max-width: 1005px;
+	margin: 0 auto;
+	padding: 0 30px;
+	height: 200px;
+	background: red;
+}
+
+.page-header {
+	position: relative;
+}
+
+.page-header .lang {
+	display: none;
+}
+
+.menu-icon {
+	position: absolute;
+	width: 33px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+
+.open-icon {
+	right: 0;
+	top: 0;
+	background-image: url('../images/icons/menu.svg');
+}
+
+.close-icon {
+	top: 65px;
+	right: 30px;
+	background-image: url('../images/icons/close.svg');
+}
+
+.title {
+	margin-bottom: 23px;
+	font-size: 47px;
+	line-height: 58px;
+}
+
+.mob-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: calc(100vh - 65px);
+	width: 100vw;
+	transform: translateX(100vh);
+	padding-top: 65px;
+	background-color: var(--white);
+	transition: all .5s ease;
+}
+
+.mob-menu.show {
+	transform: none;
+	transition: all .5s ease;
+}
