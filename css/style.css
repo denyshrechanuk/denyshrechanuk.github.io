@@ -96,6 +96,7 @@ body {
 }
 
 .mob-menu.show {
+	background-color: #fff;
 	transform: none;
 	transition: all .5s ease;
 	font-size: 34px;
